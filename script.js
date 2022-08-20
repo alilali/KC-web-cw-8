@@ -21,7 +21,6 @@ grades.forEach(element => {
 });
 function search() {
   let inputValue = document.getElementById("input").value;
-  console.log (`الدرجة غير موجودة`)
   // طبّق الخطوة 7 أسفل هذا الكومنت
   
   let filteredGrades =   grades.filter((x) => x == inputValue);
